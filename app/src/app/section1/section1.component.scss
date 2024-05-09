@@ -1,0 +1,25 @@
+.bg{
+    // height: 520px;
+    width: 1519px;
+    height: auto;
+    display: block;
+}
+.div1 {
+    padding-top: 60px; 
+    position: relative;
+  }
+
+  
+button {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    background-color:#4e7d7f;
+    left: 9%; 
+    top: 75%; 
+    transform: translate(-9%, -75%); 
+    border-radius: 5px; 
+    color:whitesmoke;
+  
+    
+  }
