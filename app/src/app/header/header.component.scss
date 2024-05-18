@@ -31,3 +31,12 @@ body{
 .form-control me-2{
     margin-left: 100px;
 }
+
+.cart-items {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+}

@@ -13,6 +13,8 @@ import { Page3Component } from './page3/page3.component';
 import { MainComponent } from './main/main.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ConnectComponent } from './connect/connect.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { RegisterComponent } from './register/register.component';
     Page3Component,
     MainComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ConnectComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
