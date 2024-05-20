@@ -8,4 +8,12 @@ import { CartService } from '../services/cart.service';
 })
 export class CartComponent {
   constructor (public cartServ: CartService) {}
+
+  clearCarts() {
+    if (this.cartServ.carts.length > 0) {
+      this.cartServ.clearCarts();
+    } else {
+      console.log('Cart is already empty');
+    }
+  }
 }
