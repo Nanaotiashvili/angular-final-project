@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "3d0d",
+      "firstName": "jhon",
+      "lastName": "doe",
+      "city": "tbilisi",
+      "phone": "599999999",
+      "email": "johndoe@gmail",
+      "password": "password"
+    }
+  ]
+}
