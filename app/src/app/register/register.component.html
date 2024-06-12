@@ -1,0 +1,48 @@
+
+ <div class="con1">
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Register</h5>
+            <form [formGroup]="userForm" (ngSubmit)="register()">
+              <div class="mb-3">
+                <label  for="firstName" class="form-label">First Name</label>
+                <input formControlName="firstName" type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+              </div>
+              <div class="mb-3">
+                <label  for="lastName" class="form-label">Last Name</label>
+                <input formControlName="lastName" type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+              </div>
+              <div class="mb-3">
+                <label  for="city" class="form-label">City</label>
+                <input formControlName="city" type="text" class="form-control" id="city" placeholder="Enter your city" required>
+              </div>
+              <div class="mb-3">
+                <label  for="phone" class="form-label">Phone Number</label>
+                <input formControlName="phone" type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input formControlName="email" type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div formGroupName="passwordGroup">
+                <div class="mb-3">
+                  <label  for="password" class="form-label">Password</label>
+                  <input formControlName="password" type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="mb-3">
+                  <label  for="confirmPassword" class="form-label">Confirm Password</label>
+                  <input formControlName="confirmPassword" type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Register</button>
+              <h6 class="myh6">Have an account? then <a routerLink="../login">Log in!</a></h6>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

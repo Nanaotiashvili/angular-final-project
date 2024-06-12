@@ -1,0 +1,42 @@
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.nav-item1{
+    margin-left: 300px;
+}
+.nav-item{
+    margin-left:60px;
+}
+.buttons{
+    margin-left: 160px;
+}
+.register{
+    height: 40px;
+    width:40px;
+    margin-right: 20px;
+}
+.cart{
+    height: 40px;
+    width:40px;
+    margin-left: 90px;
+    margin-right: 30px;
+}
+body{
+    font-family: "Sedan SC";
+    
+}
+.form-control me-2{
+    margin-left: 100px;
+}
+
+.cart-items {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+}
