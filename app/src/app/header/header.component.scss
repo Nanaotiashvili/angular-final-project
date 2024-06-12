@@ -33,10 +33,11 @@ body{
 }
 
 .cart-items {
+    display: flex;
     position: absolute;
     right: 10px;
     top: 60px;
     width: 300px;
-    height: 400px;
+    max-height: 400px;
     border: 1px solid;
 }

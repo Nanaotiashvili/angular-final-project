@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RegisterLoginRestService } from '../services/register-login.rest.service';
 import { FormControl, FormGroup } from '@angular/forms';
-import { tap } from 'rxjs';
+import { catchError, of, tap } from 'rxjs';
 import { Router } from '@angular/router';
 
 @Component({
@@ -33,10 +33,16 @@ export class LoginComponent {
             alert('user logged')
             this.router.navigateByUrl('/main')
           }
+          else {
+            console.log('User not found')
+          }
+        }),
+        catchError((err) => {
+          console.log('Error catched')
+          return of(null)
         })
-      ).subscribe();
+      ).subscribe()
     }
   }
   
-
 

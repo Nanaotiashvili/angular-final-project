@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CartService, IBooksInfo } from '../services/cart.service';
 
 @Component({
   selector: 'app-page2',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Page2Component {
 
+  constructor (private cartServ: CartService) {}
+
+  public addToCart(booksInfo?: IBooksInfo) {
+    this.cartServ.addToCarts(booksInfo || {} as IBooksInfo)
+  }
 }
