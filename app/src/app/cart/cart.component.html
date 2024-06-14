@@ -1,16 +1,17 @@
 <ng-container *ngIf="cartServ.carts$ | async as carts">
-    <div *ngIf="carts.length" >
+    <div class="cart-container" *ngIf="carts.length">
         <ng-container *ngFor="let cart of carts">
-            <div>
-                <h2>{{cart.name}}</h2>
-                <p>{{cart.price}}</p>
-                <img [src]="'../../assets/images/' + cart.imgName" alt="">
+            <div class="book-item">
+                <img [src]="'../../assets/images/' + cart.imgName" alt="{{cart.name}}" class="book-image">
+                <div class="book-details">
+                    <h2 class="book-title">{{cart.name}}</h2>
+                    <p class="book-price">{{cart.price | currency}}</p>
+                </div>
             </div>
         </ng-container>
     </div>
-    <div *ngIf="!carts.length">
+    <div class="empty-cart-message" *ngIf="!carts.length">
         <p>დამატებული წიგნები არ მოიძებნა</p>
     </div>
 </ng-container>
-<button (click)="clearCarts()">Clear Cart</button>
-
+<button class="clear-cart-button" (click)="clearCarts()">Clear Cart</button>

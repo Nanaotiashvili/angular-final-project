@@ -8,6 +8,15 @@
       "phone": "599999999",
       "email": "johndoe@gmail",
       "password": "password"
+    },
+    {
+      "id": "aa75",
+      "firstName": "nana",
+      "lastName": "nananana",
+      "city": "Tbilisi",
+      "phone": "111111111",
+      "email": "gorgodzea@gmail.com",
+      "password": "Nananana1"
     }
   ]
 }
