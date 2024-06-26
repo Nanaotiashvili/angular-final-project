@@ -17,6 +17,24 @@
       "phone": "111111111",
       "email": "gorgodzea@gmail.com",
       "password": "Nananana1"
+    },
+    {
+      "id": "e692",
+      "firstName": "ana",
+      "lastName": "ana",
+      "city": null,
+      "phone": null,
+      "email": "asmith@gmail",
+      "password": "123"
+    },
+    {
+      "id": "f471",
+      "firstName": "ana",
+      "lastName": "ana",
+      "city": null,
+      "phone": null,
+      "email": "asmith@gmail",
+      "password": "123456"
     }
   ]
 }

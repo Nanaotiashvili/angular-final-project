@@ -3,6 +3,9 @@
     width: 1519px;
     height: auto;
     display: block;
+    //@media (max-width:400px) {width: 90%};
+    max-width: 100%; 
+    margin: 0 auto; 
 }
 .div1 {
     padding-top: 60px; 

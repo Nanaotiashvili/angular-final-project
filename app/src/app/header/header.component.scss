@@ -6,6 +6,7 @@
   
 .nav-item1{
     margin-left: 300px;
+    @media (max-width:990px) {margin-left: 60px};
 }
 .nav-item{
     margin-left:60px;

@@ -14,6 +14,12 @@
 .bg2{
     margin-top: 30px;
     width:1519px ;
+    //@media (max-width:400px) {width: 50%};
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+
 }
 .myh1{
     color: #4A5568;
